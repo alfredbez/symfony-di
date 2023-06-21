@@ -1,0 +1,13 @@
+{
+    "name": "acme/symfony-di-test",
+    "require": {
+        "symfony/dependency-injection": "^6.3",
+        "symfony/config": "^6.3",
+        "symfony/yaml": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Acme\\SymfonyDiTest\\": "src/"
+        }
+    }
+}

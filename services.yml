@@ -1,0 +1,5 @@
+services:
+  _defaults:
+      public: true
+  Acme\SymfonyDiTest\:
+    resource: ./src/*
